@@ -1,0 +1,57 @@
+.spacecrafts {
+  padding: 2rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  list-style: none;
+  padding: 0;
+}
+
+.card {
+  background: #1a2233;
+  color: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.15);
+  padding: 1.5rem;
+  min-width: 250px;
+  flex: 1 1 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px) scale(1.03);
+}
+
+.card h2 {
+  margin: 0 0 0.5rem 0;
+}
+
+.card button {
+  margin-top: 0.5rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  background: #3fa9f5;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.2s;
+}
+
+.card button:hover {
+  background: #357ab8;
+}
+
+.error {
+  color: #ff4d4f;
+  margin: 1rem 0;
+  font-weight: bold;
+}
